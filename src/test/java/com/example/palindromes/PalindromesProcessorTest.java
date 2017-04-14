@@ -3,16 +3,17 @@ package com.example.palindromes;
 import java.util.List;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 import com.example.palindromes.PalindromesProcessor.PalindromeDescriptor;
 
+/**
+ * Test for {@link PalindromesProcessor}
+ * 
+ * @author eliasbalasis
+ *
+ */
 public class PalindromesProcessorTest {
-
-	@Before
-	public void setup() {
-	}
 
 	@Test
 	public void test() {
